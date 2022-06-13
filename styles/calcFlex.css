@@ -1,0 +1,63 @@
+main{
+    background: lightGrey; 
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    
+    
+  }
+  /* result Styling */
+  .display{
+    
+    background-color: darkGrey;
+    height: 6rem;
+    width: 31.25rem;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 48px;
+    
+  }
+  
+  .buttons{
+    width: 31.25rem;
+    display: flex;
+    height: 30rem;
+    flex-wrap: wrap;
+    
+  }
+  
+  button {
+    flex:1 25%;
+    padding: 10px;
+    font-size: 1.5rem;
+    color: white;
+  }
+  
+  .btn-number {
+    background-color:grey;    
+  }
+
+  .btn-operator.plus {
+    background-color: blue;
+  }
+  
+  .btn-operator {
+    background-color:orange;
+  }
+  
+  .btn-equals {
+    background-color:  lime;
+    flex: 1 50%;
+  }
+  
+  .btn-clear {
+     background-color:crimson;
+  }
+  
+  
+  button:focus {
+    outline: none;
+  }

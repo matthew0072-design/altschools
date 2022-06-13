@@ -1,0 +1,82 @@
+html, body {
+    height: 100%;
+    width: 100%;
+  }
+
+  header {
+    
+    background: blue;
+    padding: 1rem;
+    
+  }
+
+  ul {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  
+li a {
+  text-align: center;
+  text-decoration: none;
+  padding: 5px;
+  margin: 7px;
+  color: white;
+  font-size: 1  rem;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+li a:hover {
+  opacity:0.8;
+  border-bottom: 4px solid red;
+  padding-bottom: 1rem;
+}
+
+.header-name {
+  text-align: center;
+  color: blue;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.heading {
+  font-size: 2rem;
+  
+
+}
+
+.text {
+  font-size: 1.5rem;
+  width: 90%;
+  border-bottom: 2px solid red;
+  padding: 0 0 2rem 0;
+  line-height: 2.5rem;
+
+  margin: auto;
+}
+.about-me {
+  background-image: url('../images/1645829871440.png');
+  width: 15rem;
+  height: 15rem;
+  margin: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 50%;
+}
+
+.background {
+  display: flex;
+  justify-content: space-around;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: blue;
+}
+
+.background h3 {
+
+  color: red;
+}
